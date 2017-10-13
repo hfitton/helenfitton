@@ -1,0 +1,76 @@
+body,html{
+	height:100%;
+	margin:0;
+}
+.bg {
+	/*add the image*/
+	background-image: url("kitty.jpg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely - fixed is what makes the parallel */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.secondpic{
+		background-image: url("kitty2.png");
+
+	/* Full height */
+	height: 30%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fa {
+	/*adding a background to the icons allows them to be styled using the fa
+	selector. without it, they're tiny squares.*/
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+	}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-github, .fa-codepen {
+	background:#050607;
+	color:white;
+}
+.icons{
+	background-color:#CBF1F9  ;
+	padding:20px;
+}
+.thirdpic{
+		background-image: url("https://static.pexels.com/photos/34088/pexels-photo.jpg");
+
+	/* Full height */
+	height: 50%;
+
+	/* Center and scale the image nicely - fixed is what makes the parallel */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.links{
+	padding:20px;
+}
+.portfolio{
+	margin-top:50px;
+}
